@@ -57,6 +57,10 @@ article{
     
 }
 
+body{
+    min-height: 100vh;
+}
+
 article h1{
 margin-bottom:15px;
 margin-top:5px;
