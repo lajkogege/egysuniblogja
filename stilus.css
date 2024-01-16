@@ -1,0 +1,163 @@
+header,article,nav,section,aside, footer{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.row{
+    margin-right:80px;
+}
+
+
+header{
+    background-image: url("index/headerkep.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+header h1{
+    color: white;
+    font-family: Courier New, Courier, monospace;
+    font-size: 60px;
+    margin-top:120px;
+}
+
+.kartyacim{
+    margin-bottom:5px;
+    margin-left:5px;
+}
+
+.kartyaszoveg{
+    padding:5px;
+}
+
+.gombok{
+    margin-top:5px;
+    background-color:lightblue;
+    border-radius: 10px;
+}
+
+.gombok a{
+    text-decoration: none;
+}
+
+.gombok a:hover{
+    color: deepskyblue;
+}
+
+nav{
+    background-color: #FFDAB9;
+}
+
+.collapse navbar-collapse a{
+    color:white;
+}
+
+article{
+    margin: auto;
+    
+}
+
+article h1{
+margin-bottom:15px;
+margin-top:5px;
+}
+
+#frissbejegyzesek{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    
+}
+footer{
+    text-align: center;
+    background-color: #FFDAB9;
+    color: white;
+    font-family: Courier New, Courier, monospace;
+}
+
+/*sutemenyek.html tartalom jegyzek*/
+#tartalomjegyzek{
+   
+}
+
+#tartalomjegyzek a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+
+#tartalomjegyzek ul{
+    list-style-type: none;
+
+}
+
+/*galeria*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.tartalomgaleria{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+
+/*Rezponziv*/
+/* Tablet Styles */
+@media (min-width: 500px) and (max-width: 991.98px) {
+    header {
+        padding: 15px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        padding: 15px 0;
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+
+    article {
+        padding: 15px 0;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .kartyacim {
+        font-size: 1.3rem;
+    }
+
+    .kartyaszoveg {
+        font-size: 1rem;
+    }
+
+    .gombok {
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+}
